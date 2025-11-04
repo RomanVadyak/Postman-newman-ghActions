@@ -17,16 +17,11 @@ products:
     price: 30
     sku: 999921312423312
     description: awesome
-  - name: racoon
-    price: 155
-    sku: 123321123
-    description: changed everything
-    id: 4
   - name: pineapple
     price: 12
     sku: 123321123
     description: sweet and sour
-    id: 5
+    id: 4
 orders:
   - id: 1
     name: order1
@@ -119,12 +114,3 @@ users:
     signUpDate: 2019-08-24
     status: active
     level: consumer
-  - firstName: Ilon
-    lastName: Mask
-    email: ilon.mask@gmail.com
-    dateOfBirth: 2001-10-99
-    emailVerified: true
-    signUpDate: 2019-08-24
-    status: active
-    level: lord
-    id: 10

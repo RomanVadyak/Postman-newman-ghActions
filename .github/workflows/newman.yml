@@ -30,7 +30,7 @@ jobs:
 
       - name: Run Postman collection and generate HTML report
         run: |
-          newman run PetStore.postman_collection.json \
+          newman run store.postman_collection.json \
             -r html \
             --reporter-html-export reports/index.html
 
