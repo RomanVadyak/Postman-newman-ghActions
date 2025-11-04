@@ -17,11 +17,6 @@ products:
     price: 30
     sku: 999921312423312
     description: awesome
-  - name: pineapple
-    price: 12
-    sku: 123321123
-    description: sweet and sour
-    id: 4
 orders:
   - id: 1
     name: order1
