@@ -416,6 +416,23 @@
 				},
 				{
 					"name": "Remove order by ID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let maxResponseTime = 500;",
+									"let actualTime = pm.response.responseTime;",
+									"pm.test(\"Response time is acceptable\", function () {",
+									"  pm.expect(actualTime).to.be.below(maxResponseTime);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						}
+					],
 					"request": {
 						"method": "DELETE",
 						"header": [],
